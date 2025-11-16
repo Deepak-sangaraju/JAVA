@@ -1,5 +1,5 @@
 public class singleinheritance {
-    public static void main(string[] args){
+  public static void main(string[] args){
         puppy p= new puppy();
         p.eat();
         p.bark();
@@ -19,8 +19,6 @@ class puppy extends Animal{
         System.out.println("puppy can Bark");
     }
 }
-
-
 
 
 
